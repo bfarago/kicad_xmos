@@ -32,3 +32,4 @@ kicad will connect each. (KiCad has no pin-to-net net-to-pad ability).
 TODO:
  -fix pin directions (kicad able to define, but it is a pain in the ass to use it realy)
  -fix pin positions in schematic. It would be nice to have same pins in same coordinate..
+ -demo projects schematics need to be updated, because of the pin positions has been changed on component.

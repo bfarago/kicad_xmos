@@ -29,7 +29,7 @@ version=1
 NetIExt=net
 [eeschema]
 version=1
-LibDir=
+LibDir=../../library;../../library/xmos
 [eeschema/libraries]
 LibName1=power
 LibName2=device

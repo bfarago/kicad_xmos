@@ -2118,7 +2118,7 @@ $Sheet
 S 14550 700  850  950 
 U 554CE833
 F0 "xlinkout1" 60
-F1 "common/xlinkout1.sch" 60
+F1 "../common/xlinkout1.sch" 60
 F2 "PWR" I L 14550 750 60 
 F3 "~TRST" I L 14550 900 60 
 F4 "TDI" I L 14550 1000 60 
@@ -2195,13 +2195,13 @@ $Sheet
 S 14650 3050 700  550 
 U 554D6812
 F0 "board1" 60
-F1 "common/board1.sch" 60
+F1 "../common/board1.sch" 60
 $EndSheet
 $Sheet
 S 14650 3950 700  500 
 U 554D98B4
 F0 "pwr" 60
-F1 "common/pwr.sch" 60
+F1 "../common/pwr.sch" 60
 F2 "OUT3V3" I L 14650 4000 60 
 F3 "OUTUNREG" I L 14650 4200 60 
 F4 "INUNREG" I L 14650 4350 60 
@@ -2227,7 +2227,7 @@ $Sheet
 S 14650 4700 700  450 
 U 554E5CD8
 F0 "note_a8a-64" 60
-F1 "common/note_a8a-64.sch" 60
+F1 "../common/note_a8a-64.sch" 60
 $EndSheet
 Wire Wire Line
 	3250 4800 2950 4800
@@ -2237,7 +2237,7 @@ $Sheet
 S 14550 1850 850  900 
 U 554FEDEA
 F0 "xlinkin1" 31
-F1 "common/xlinkin1.sch" 31
+F1 "../common/xlinkin1.sch" 31
 F2 "PWRIN" O L 14550 1900 60 
 F3 "~TRST" O L 14550 2050 60 
 F4 "TDI" O L 14550 2150 60 
