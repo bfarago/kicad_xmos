@@ -1,10 +1,6 @@
-update=2015.05.09. 1:09:27
+update=2017.06.19. 0:25:44
 version=1
 last_client=kicad
-[general]
-version=1
-RootSch=
-BoardNm=
 [pcbnew]
 version=1
 LastNetListRead=
@@ -76,3 +72,5 @@ RptD_X=0
 RptD_Y=100
 RptLab=1
 LabSize=39
+[general]
+version=1
