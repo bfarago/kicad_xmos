@@ -16,12 +16,12 @@ Note: different kiCad installations can use different folders, I guess.
  But you can leave everything in the project folder of course...
 
 2) SETUP
- schematic and pcb editor prefferencies, basically to search this libs.
+ schematic and pcb editor preferencies, basically to search this libs.
  If you placed the files to global folder, there is an option to setup as global
  config (in this case all of the new projects will find these files automaticaly).
  For first sight, I suggest to use as project specific libs...
- In case of trial config, you can leave everything in one folder, but in your
- yew project you have to change your kicad settings of course...
+ In case of trial config, you can leave everything in one folder, but in a
+ new project you have to change your kicad settings of course...
  
 3) DEMOs
 try out demo project.
