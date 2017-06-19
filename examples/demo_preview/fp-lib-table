@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name xmos)(type KiCad)(uri ${KIPRJMOD}/../../modules/xmos.pretty)(options "")(descr ""))
+)

@@ -1,0 +1,181 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:xmos
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:xmos_project
+LIBS:demo_preview-cache
+EELAYER 25 0
+EELAYER END
+$Descr A3 11693 16535 portrait
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+NoConn ~ 3200 2750
+$Comp
+L XE216-512-TQ128 U1
+U 1 1 5946FFDA
+P 1550 3400
+F 0 "U1" H 1600 3200 60  0000 C CNN
+F 1 "XE216-512-TQ128" H 1550 3300 60  0000 C CNN
+F 2 "xmos:TQFP-128_14x14mm_Pitch0.4mm_Len1.45mm_thermalpad" H 1550 3300 60  0001 C CNN
+F 3 "" H 1550 3300 60  0000 C CNN
+	1    1550 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L XE216-512-TQ128 U1
+U 2 1 59470031
+P 2850 3400
+F 0 "U1" H 2900 3200 60  0000 C CNN
+F 1 "XE216-512-TQ128" H 2850 3300 60  0000 C CNN
+F 2 "xmos:TQFP-128_14x14mm_Pitch0.4mm_Len1.45mm_thermalpad" H 2850 3300 60  0001 C CNN
+F 3 "" H 2850 3300 60  0000 C CNN
+	2    2850 3400
+	1    0    0    -1  
+$EndComp
+$Comp
+L XE216-512-TQ128 U1
+U 3 1 59470068
+P 4400 3450
+F 0 "U1" H 4450 3250 60  0000 C CNN
+F 1 "XE216-512-TQ128" H 4400 3350 60  0000 C CNN
+F 2 "xmos:TQFP-128_14x14mm_Pitch0.4mm_Len1.45mm_thermalpad" H 4400 3350 60  0001 C CNN
+F 3 "" H 4400 3350 60  0000 C CNN
+	3    4400 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L XE216-512-TQ128 U1
+U 4 1 594700A1
+P 5950 3450
+F 0 "U1" H 6000 3250 60  0000 C CNN
+F 1 "XE216-512-TQ128" H 5950 3350 60  0000 C CNN
+F 2 "xmos:TQFP-128_14x14mm_Pitch0.4mm_Len1.45mm_thermalpad" H 5950 3350 60  0001 C CNN
+F 3 "" H 5950 3350 60  0000 C CNN
+	4    5950 3450
+	1    0    0    -1  
+$EndComp
+$Comp
+L xs1-a16a-128-fb217 U2
+U 1 1 5947016C
+P 1550 6550
+F 0 "U2" H 1600 6350 60  0000 C CNN
+F 1 "xs1-a16a-128-fb217" H 1550 6450 60  0000 C CNN
+F 2 "xmos:BGA217" H 1550 6450 60  0001 C CNN
+F 3 "" H 1550 6450 60  0000 C CNN
+	1    1550 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L xs1-a16a-128-fb217 U2
+U 2 1 59470252
+P 3000 6550
+F 0 "U2" H 3050 6350 60  0000 C CNN
+F 1 "xs1-a16a-128-fb217" H 3000 6450 60  0000 C CNN
+F 2 "xmos:BGA217" H 3000 6450 60  0001 C CNN
+F 3 "" H 3000 6450 60  0000 C CNN
+	2    3000 6550
+	1    0    0    -1  
+$EndComp
+$Comp
+L xs1-a16a-128-fb217 U2
+U 3 1 594702A5
+P 4600 6600
+F 0 "U2" H 4650 6400 60  0000 C CNN
+F 1 "xs1-a16a-128-fb217" H 4600 6500 60  0000 C CNN
+F 2 "xmos:BGA217" H 4600 6500 60  0001 C CNN
+F 3 "" H 4600 6500 60  0000 C CNN
+	3    4600 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L xs1-a16a-128-fb217 U2
+U 4 1 59470306
+P 6200 6600
+F 0 "U2" H 6250 6400 60  0000 C CNN
+F 1 "xs1-a16a-128-fb217" H 6200 6500 60  0000 C CNN
+F 2 "xmos:BGA217" H 6200 6500 60  0001 C CNN
+F 3 "" H 6200 6500 60  0000 C CNN
+	4    6200 6600
+	1    0    0    -1  
+$EndComp
+$Comp
+L xs1-a8a-64-fb96 U3
+U 1 1 594705B1
+P 1600 9200
+F 0 "U3" H 1650 9100 60  0000 C CNN
+F 1 "xs1-a8a-64-fb96" H 1600 9200 60  0000 C CNN
+F 2 "xmos:BGA96" H 1600 9200 60  0001 C CNN
+F 3 "" H 1600 9200 60  0000 C CNN
+	1    1600 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xs1-a8a-64-fb96 U3
+U 2 1 59470614
+P 3150 9200
+F 0 "U3" H 3200 9100 60  0000 C CNN
+F 1 "xs1-a8a-64-fb96" H 3150 9200 60  0000 C CNN
+F 2 "xmos:BGA96" H 3150 9200 60  0001 C CNN
+F 3 "" H 3150 9200 60  0000 C CNN
+	2    3150 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L xs1-a8a-64-fb96 U3
+U 3 1 594706A3
+P 4800 9200
+F 0 "U3" H 4850 9100 60  0000 C CNN
+F 1 "xs1-a8a-64-fb96" H 4800 9200 60  0000 C CNN
+F 2 "xmos:BGA96" H 4800 9200 60  0001 C CNN
+F 3 "" H 4800 9200 60  0000 C CNN
+	3    4800 9200
+	1    0    0    -1  
+$EndComp
+$Comp
+L XU208-256-TQ64 U4
+U 1 1 5947163C
+P 9000 8000
+F 0 "U4" H 9000 7950 39  0000 C CNN
+F 1 "XU208-256-TQ64" H 9000 8050 39  0000 C CNN
+F 2 "Housings_QFP:TQFP-64_1EP_10x10mm_Pitch0.5mm" H 9000 8050 39  0001 C CNN
+F 3 "" H 9000 8050 39  0001 C CNN
+	1    9000 8000
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC
