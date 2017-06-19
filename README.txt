@@ -1,5 +1,12 @@
-INITIAL VERSION V1.0
+VERSION V1.1
+FB236: XUF216-512-FB236, XE216-512-FB236
+FB217: xs1-a16a-128-fb217
+FB96: xs1-a8a-64-fb96
+TQ128: XE216-512-TQ128
+TQ64: XL208-256-TQ64
+
 0) Simply open .pro project files by kicad, and take a look...
+The examples\demo_preview  project contains all of the footprints.
 
 If you want to create some design with the library:
 1) COPY FILES TO A COMMON PLACE 
@@ -20,9 +27,9 @@ Note: different kiCad installations can use different folders, I guess.
 try out demo project.
 FB96 or BGA96 is a 96 pins BGA package for xmos products.
 FB217 or BGA217 is a 217 pins BGA with 0.8mm pitch ~0.4mm pad size.
-Exact sizes, and thermal pad/gnd plane was designed by the official xmos documentation.
+Exact sizes, and thermal pad/gnd plane design was based by the official xmos documentation.
 
-Each xmos schematic component connects multple pins to one electrical net by
+Each xmos schematic component connects multiple pins to one electrical net by
 coordinates. Check out the lib editor, what I am talking about.. :)
 It was mentioned by some forum post, and I think it is a usable method. 
 At the center of the bga chip theres a couple of GND balls. I pinout each, but only
